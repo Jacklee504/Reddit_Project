@@ -35,8 +35,14 @@ def scrape_reddit(subreddits, limit=10):
         subreddit_obj = reddit.subreddit(subreddit)
         for submission in subreddit_obj.top(limit=limit):
             posts.append({
+                "id": submission.id,
+                "subreddit": subreddit,
                 "title": submission.title,
-                "content": submission.selftext
+                "content": submission.selftext,
+                "score": submission.score,
+                "num_comments": submission.num_comments,
+                "over_18": submission.over_18,
+                "url": f"https://www.reddit.com{submission.permalink}"
             })
 
     return posts

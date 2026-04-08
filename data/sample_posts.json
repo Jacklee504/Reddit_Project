@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mock-aita-001",
+    "subreddit": "AITA",
+    "title": "AITA for refusing to lend my car to my roommate?",
+    "content": "My roommate asked to borrow my car for a weekend trip after repeatedly returning it with an empty tank. I said no and now the apartment is tense.",
+    "score": 1240,
+    "num_comments": 284,
+    "over_18": false,
+    "url": "https://www.reddit.com/r/AITA/comments/mock001/example/"
+  },
+  {
+    "id": "mock-rel-001",
+    "subreddit": "relationships",
+    "title": "My partner keeps canceling date night at the last minute.",
+    "content": "We have planned date night every Friday for months, but they cancel most weeks due to work. I feel unimportant and I am not sure how to address it.",
+    "score": 980,
+    "num_comments": 167,
+    "over_18": false,
+    "url": "https://www.reddit.com/r/relationships/comments/mock002/example/"
+  }
+]
