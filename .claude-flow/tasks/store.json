@@ -1,0 +1,20 @@
+{
+  "tasks": {
+    "task-1774789696187-cn1sdo": {
+      "taskId": "task-1774789696187-cn1sdo",
+      "type": "implementation",
+      "description": "Build Reddit scraper for r/AITA stories",
+      "priority": "normal",
+      "status": "in_progress",
+      "progress": 0,
+      "assignedTo": [
+        "agent-1774789532490-uuwa3m"
+      ],
+      "tags": [],
+      "createdAt": "2026-03-29T13:08:16.187Z",
+      "startedAt": "2026-03-29T13:23:43.183Z",
+      "completedAt": null
+    }
+  },
+  "version": "3.0.0"
+}
