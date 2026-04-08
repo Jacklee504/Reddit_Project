@@ -15,10 +15,19 @@ def scrape_reddit(subreddits, limit=10):
     Returns:
         list: List of top posts with title and content.
     """
+    client_id = os.getenv("REDDIT_CLIENT_ID")
+    client_secret = os.getenv("REDDIT_CLIENT_SECRET")
+    user_agent = os.getenv("REDDIT_USER_AGENT")
+
+    if not client_id or not client_secret or not user_agent:
+        raise ValueError(
+            "Missing Reddit credentials. Set REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, and REDDIT_USER_AGENT."
+        )
+
     reddit = praw.Reddit(
-        client_id="your_client_id",
-        client_secret="your_client_secret",
-        user_agent="your_user_agent"
+        client_id=client_id,
+        client_secret=client_secret,
+        user_agent=user_agent
     )
 
     posts = []
